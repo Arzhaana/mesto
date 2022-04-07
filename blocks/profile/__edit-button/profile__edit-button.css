@@ -3,10 +3,12 @@
   height: 24px;
   background: transparent center url(../../../images/edit_button.svg);
   background-repeat: no-repeat;
+  background-size: 10px 10px;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
+  transition: 0.3s;
   transition: 0.3s;
   cursor: pointer;
   box-sizing: border-box;
@@ -21,6 +23,6 @@
   .profile__edit-button {
     min-width: 18px;
     height: 18px;
-    background-size: 7.5px;
+    background-size: 7.5px 7.5px;
   }
 }
