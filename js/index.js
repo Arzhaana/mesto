@@ -36,4 +36,4 @@ const editProfileInfo = function (event) {
 formOpenButtonElement.addEventListener("click", openPopup);
 formCloseButtonElement.addEventListener("click", closePopup);
 popupElement.addEventListener("click", closePopupByClickOnOverlay);
-popupElement.addEventListener("submit", editProfileInfo);
+popupForm.addEventListener("submit", editProfileInfo);
